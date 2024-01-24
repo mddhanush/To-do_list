@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(125deg,#E28413,#6F1E37);
+    padding: 10px;
+}
+.todo-app{
+    background:#EFBD83; 
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 30px;
+    padding: 40px 30px 60px;
+    border-radius: 20px;
+}
+
+.todo-app h2{
+    color: #D76549;
+    display: flex;
+    align-items: center;
+    margin-bottom:15px ;
+
+}
+
+.todo-app h2 img{
+    width: 50px;
+    margin-left:10px ;
+}
+
