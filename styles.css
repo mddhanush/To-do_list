@@ -88,11 +88,28 @@ ul li::before {
 }
 
 ul li.checked {
-    color: #bebdbd;
+    color: #706f6f;
     text-decoration: line-through;
 
 }
 
 ul li.checked::before {
     background-image: url('images/checked.png');
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    color: #000;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    font-size: 25px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #bebdbd;
 }
